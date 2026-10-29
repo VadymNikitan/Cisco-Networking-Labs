@@ -62,7 +62,43 @@ The following checks are part of the lab:
 - Inspect network configuration with `ipconfig` and `ipconfig /all`.
 - Use `tracert` to examine the route to the remote server.
 
-Add screenshots of your actual results to the `screenshots/` directory.
+## Screenshots and Verification
+
+### 1. Network Topology
+
+The network topology includes the office router, switch, Admin PC, Manager PC, printer, and internet connection.
+
+![Network Topology](screenshots/01-network-topology.png)
+
+### 2. IPv4 Configuration
+
+This screenshot shows the IP configuration of an end device, including its IPv4 address, subnet mask, default gateway, and DNS settings.
+
+![IP Configuration](screenshots/02-ip-configuration.png)
+
+### 3. Local Connectivity Test
+
+This screenshot documents the connectivity test between a PC and the printer using the `ping` command.
+
+![Connectivity Test](screenshots/03-connectivity-test.png)
+
+### 4. Internet Connectivity
+
+This screenshot documents the test of access to the remote server.
+
+![Internet Connectivity](screenshots/04-connectivity-to-the-internet.png)
+
+### 5. Traceroute Analysis
+
+The `tracert` command is used to examine the network path toward the remote server and identify responding intermediate hops.
+
+![Traceroute Output](screenshots/05-tracert-output.png)
+
+### 6. Final Lab Result
+
+This screenshot provides additional evidence of the completed lab.
+
+![Final Result](screenshots/06-result.png)
 
 ## SOC Analyst L1 Relevance
 
