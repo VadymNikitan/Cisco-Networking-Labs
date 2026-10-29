@@ -96,6 +96,86 @@ The DHCP address pool defines the range from which the router assigns addresses 
 
 The `ipconfig` command helps verify client configuration, while `ping` tests IP connectivity between devices.
 
+## Screenshots and Verification
+
+### 1. Network Topology
+
+The network topology includes a wireless router and three PCs connected through Ethernet cables.
+
+![Network Topology](screenshots/01-network-topology.png)
+
+### 2. Default DHCP Settings
+
+This screenshot shows the default DHCP configuration on the wireless router, including the DHCP server status, starting IP address, and available address range.
+
+![Default DHCP Settings](screenshots/02-default-dhcp-settings.png)
+
+### 3. Router IP Configuration
+
+This screenshot documents the updated LAN IP address of the wireless router, configured as `192.168.5.1`.
+
+![Router IP Configuration](screenshots/03-router-ip-configuration.png)
+
+### 4. DHCP Range Configuration
+
+This screenshot shows the updated DHCP address pool, with a starting IP address of `192.168.5.126` and a maximum of 75 users.
+
+![DHCP Range Configuration](screenshots/04-dhcp-range-configuration.png)
+
+### 5. DHCP Lease Renewal
+
+This screenshot documents the process of renewing the client's IP configuration after the router's LAN address and DHCP settings were changed.
+
+![DHCP Lease Renewal](screenshots/05-pc0-dhcp-renewal.png)
+
+### 6. DHCP Verification
+
+The `ipconfig` command is used to verify the IPv4 address, subnet mask, and default gateway assigned to a client through DHCP.
+
+![DHCP Verification](screenshots/06-dhcp-verification-ipconfig.png)
+
+### 7. PC0 IP Configuration
+
+This screenshot shows the network configuration assigned to PC0 through DHCP.
+
+![PC0 IP Configuration](screenshots/07-pc0-ip-configuration.png)
+
+### 8. PC1 IP Configuration
+
+This screenshot shows the network configuration assigned to PC1 through DHCP.
+
+![PC1 IP Configuration](screenshots/08-pc1-ip-configuration.png)
+
+### 9. PC2 IP Configuration
+
+This screenshot shows the network configuration assigned to PC2 through DHCP.
+
+![PC2 IP Configuration](screenshots/09-pc2-ip-configuration.png)
+
+### 10. Connectivity Test to the Router
+
+The `ping` command is used to verify connectivity between PC2 and the wireless router at `192.168.5.1`.
+
+![Ping Router](screenshots/10-ping-router.png)
+
+### 11. Local Connectivity Test — PC0
+
+This screenshot documents the connectivity test from PC2 to PC0 at `192.168.5.126` using the `ping` command.
+
+![Ping PC0](screenshots/11-ping-pc0.png)
+
+### 12. Local Connectivity Test — PC1
+
+This screenshot documents the connectivity test from PC2 to PC1 at `192.168.5.127` using the `ping` command.
+
+![Ping PC1](screenshots/12-ping-pc1.png)
+
+### 13. Final Lab Result
+
+This screenshot provides additional evidence of the completed lab, including the router configuration, client IP settings, and connectivity verification.
+
+![Final Lab Result](screenshots/13-lab-completion.png)
+
 ## SOC Analyst L1 Relevance
 
 Understanding DHCP and IPv4 configuration helps a SOC Analyst L1 investigate basic network connectivity issues and recognize potentially suspicious address-assignment activity.
