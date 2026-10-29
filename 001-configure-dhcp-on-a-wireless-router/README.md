@@ -23,7 +23,6 @@ The network consists of one wireless router and three PCs connected through Ethe
 - PC1
 - PC2
 
-![Network Topology](screenshots/01-network-topology.png)
 
 ## Configuration
 
@@ -44,7 +43,6 @@ The DHCP server is configured with the following parameters:
 
 These settings allow the router to dynamically assign IPv4 addresses to connected clients.
 
-![DHCP Range Configuration](screenshots/04-dhcp-range-configuration.png)
 
 ### 3. Client Configuration
 
@@ -56,7 +54,6 @@ The assigned IP addresses can be verified with:
 ipconfig
 ```
 
-![Client IP Configuration](screenshots/05-client-ip-configuration.png)
 
 ## Connectivity Verification
 
@@ -76,7 +73,6 @@ The ping tests check connectivity to:
 
 The results are documented in the screenshots.
 
-![Connectivity Tests](screenshots/06-connectivity-tests.png)
 
 ## Key Networking Concepts
 
@@ -95,6 +91,7 @@ The DHCP address pool defines the range from which the router assigns addresses 
 ### Connectivity Troubleshooting
 
 The `ipconfig` command helps verify client configuration, while `ping` tests IP connectivity between devices.
+
 
 ## Screenshots and Verification
 
