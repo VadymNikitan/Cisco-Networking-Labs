@@ -18,6 +18,8 @@ The network consists of one router,2 switch,2 PCs,access point for 2 laptops.
 - laptop 10.10.10.2
 - laptop 10.10.10.3
 
+ ![01-network-topology.png](screenshots/01-network-topology.png)
+
 
 
 ### Part 1: Gather PDU Information for a Local Network Communication
@@ -25,5 +27,7 @@ The network consists of one router,2 switch,2 PCs,access point for 2 laptops.
 In this part, I studied how a device on a local network does not need a default gateway to communicate with another device on the same local network.
 
 ping 172.16.31.2 to 172.16.31.3
+
+![02-pdu-details.png](screenshots/02-pdu-details.png)
 
 
