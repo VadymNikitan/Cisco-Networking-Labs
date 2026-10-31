@@ -26,7 +26,9 @@ SOC-перспектива: В реальной сети злоумышленн�
 
 ## Step 2: Observe traffic flow in the network
 
-Ping  from Sales 2, and then enter the ping command followed by the IP address of Sales 1. 
+Ping  from Sales 2, and then enter the ping command followed by the IP address of Sales 1.
+
+![03-arp-request.png](screenshots/03-arp-request.png)
 
 The ARP process constructs a request for the target IP address»
 
