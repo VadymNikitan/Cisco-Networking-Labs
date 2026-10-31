@@ -70,6 +70,20 @@ In this part, I observed how traffic now flows through a routed network.
 
 ![05-ping-sales-1-from-sales-2.png](screenshots/05-ping-sales-1-from-sales-2.png)
 
+## What is the benefit of using multiple IPv4 networks, or subnetworks, within an enterprise?
+Broadcast Traffic Reduction (Performance & Optimization):
+In a single "flat" network, broadcast frames (such as ARP requests) are processed by every connected host. Subnetting isolates broadcast domains, preventing network-wide broadcast storms and preserving CPU cycles on end devices.
+
+Enhanced Network Security & Segmentation:
+Devices in different subnets cannot communicate directly at Layer 2; all cross-subnet traffic must pass through a router or firewall. This allows network administrators to enforce Access Control Lists (ACLs) and firewall rules, preventing lateral movement of malware if one department is compromised.
+
+Simplified Troubleshooting & Network Management:
+Segmenting the network by department or function (e.g., Sales, Finance, Executive) makes IP address management cleaner and simplifies log analysis in SIEM tools. Network issues or anomalies can be easily localized and isolated without affecting the entire enterprise.
+
+Efficient Resource Allocation & Quality of Service (QoS):
+Subnetting allows allocating appropriate IP address pool sizes based on department needs. Additionally, Layer 3/4 QoS policies can prioritize critical traffic (such as VoIP or server access) over standard user internet traffic.
+
+
 
  
 
